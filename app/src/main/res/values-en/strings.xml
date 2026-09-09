@@ -29,7 +29,7 @@
     <string name="hint_api_key">Enter your API key</string>
     <string name="label_base_url">Base URL</string>
     <string name="label_model">Model</string>
-    <string name="label_cot">Enable Chain-of-Thought (<think> tag)</string>
+    <string name="label_cot">Enable Chain-of-Thought (think tag)</string>
     <string name="label_streaming">Enable streaming response</string>
     <string name="save">SAVE</string>
     <string name="saved">Saved</string>

@@ -29,7 +29,7 @@
     <string name="hint_api_key">Masukin kunci API lu di sini</string>
     <string name="label_base_url">Base URL</string>
     <string name="label_model">Model</string>
-    <string name="label_cot">Aktifkan Chain-of-Thought (tag <think>)</string>
+    <string name="label_cot">Aktifkan Chain-of-Thought (tag think)</string>
     <string name="label_streaming">Aktifkan streaming response</string>
     <string name="save">SIMPAN</string>
     <string name="saved">Tersimpan</string>
