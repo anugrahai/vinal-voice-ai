@@ -5,12 +5,12 @@
 
     <string name="menu_chat">Chat Interaktif AI</string>
     <string name="menu_chat_desc">Ngobrol sama AI pake suara atau ketik</string>
-    <string name="menu_api">Setelan API & Otak AI</string>
+    <string name="menu_api">Setelan API &amp; Otak AI</string>
     <string name="menu_api_desc">Atur kunci API dan model AI</string>
     <string name="menu_gaya">Atur Gaya Bahasa AI</string>
     <string name="menu_gaya_desc">Pilih gaya chat: santai, gaul, formal, dll</string>
-    <string name="menu_audio">Setelan Audio & Tampilan</string>
-    <string name="menu_audio_desc">Atur kecepatan suara & getaran</string>
+    <string name="menu_audio">Setelan Audio &amp; Tampilan</string>
+    <string name="menu_audio_desc">Atur kecepatan suara &amp; getaran</string>
     <string name="menu_bahasa">Ganti Bahasa Antarmuka</string>
     <string name="menu_bahasa_desc">Pilih bahasa: Indonesia, Inggris, dll</string>
     <string name="menu_about">Tentang Aplikasi</string>
@@ -37,7 +37,7 @@
 
     <string name="gaya_cat_1">1. Chat Biasa (Ketikan Manusia)</string>
     <string name="gaya_cat_2">2. Chat Gaul (Gua/Lu, Kekinian)</string>
-    <string name="gaya_cat_3">3. Ungkapan Perasaan & Relasi</string>
+    <string name="gaya_cat_3">3. Ungkapan Perasaan &amp; Relasi</string>
     <string name="gaya_cat_4">4. Motivasi</string>
     <string name="gaya_selected">Gaya dipilih</string>
 

@@ -5,12 +5,12 @@
 
     <string name="menu_chat">AI Interactive Chat</string>
     <string name="menu_chat_desc">Chat with AI by voice or typing</string>
-    <string name="menu_api">API & AI Brain Settings</string>
+    <string name="menu_api">API &amp; AI Brain Settings</string>
     <string name="menu_api_desc">Set API key and AI model</string>
     <string name="menu_gaya">Set AI Language Style</string>
     <string name="menu_gaya_desc">Pick style: casual, slang, formal, etc</string>
-    <string name="menu_audio">Audio & Display Settings</string>
-    <string name="menu_audio_desc">Adjust voice speed & vibration</string>
+    <string name="menu_audio">Audio &amp; Display Settings</string>
+    <string name="menu_audio_desc">Adjust voice speed &amp; vibration</string>
     <string name="menu_bahasa">Change Interface Language</string>
     <string name="menu_bahasa_desc">Pick language: Indonesian, English, etc</string>
     <string name="menu_about">About App</string>
@@ -37,7 +37,7 @@
 
     <string name="gaya_cat_1">1. Casual Chat (Human Typing)</string>
     <string name="gaya_cat_2">2. Slang Chat (Trendy, Modern)</string>
-    <string name="gaya_cat_3">3. Feelings & Relationships</string>
+    <string name="gaya_cat_3">3. Feelings &amp; Relationships</string>
     <string name="gaya_cat_4">4. Motivation</string>
     <string name="gaya_selected">Style selected</string>
 
