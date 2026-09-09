@@ -9,13 +9,13 @@ import android.speech.tts.UtteranceProgressListener;
 import java.util.Locale;
 
 public class TtsManager {
-    private final TextToSpeech tts;
+    private TextToSpeech tts;
     private boolean ready = false;
 
     public TtsManager(Context ctx) {
         tts = new TextToSpeech(ctx, status -> {
             ready = status == TextToSpeech.SUCCESS;
-            if (ready) {
+            if (ready && tts != null) {
                 tts.setLanguage(Locale.getDefault());
                 tts.setSpeechRate(1.0f);
                 tts.setPitch(1.0f);
@@ -30,18 +30,18 @@ public class TtsManager {
     }
 
     public void speak(String text) {
-        if (ready && text != null && !text.isEmpty()) {
+        if (ready && tts != null && text != null && !text.isEmpty()) {
             tts.stop();
             tts.speak(text, TextToSpeech.QUEUE_FLUSH, null, "vinal_" + System.currentTimeMillis());
         }
     }
 
     public void setLanguage(Locale locale) {
-        if (ready) tts.setLanguage(locale);
+        if (ready && tts != null) tts.setLanguage(locale);
     }
 
     public void setRate(float rate) {
-        if (ready) tts.setSpeechRate(rate);
+        if (ready && tts != null) tts.setSpeechRate(rate);
     }
 
     public void shutdown() {
