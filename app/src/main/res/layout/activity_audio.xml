@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_primary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/primary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/label_tts_rate" android:textStyle="bold" />
+            <TextView android:id="@+id/tv_rate" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="100%" android:textSize="12sp" />
+            <SeekBar
+                android:id="@+id/sb_rate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="200"
+                android:progress="100" />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/label_tts_pitch" android:textStyle="bold" android:layout_marginTop="16dp" />
+            <TextView android:id="@+id/tv_pitch" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="100%" android:textSize="12sp" />
+            <SeekBar
+                android:id="@+id/sb_pitch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="200"
+                android:progress="100" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/sw_vibration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label_vibration"
+                android:layout_marginTop="16dp" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/sw_audio_enabled"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label_audio_enabled"
+                android:layout_marginTop="8dp" />
+
+            <Button
+                android:id="@+id/btn_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/test_audio"
+                android:layout_marginTop="24dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

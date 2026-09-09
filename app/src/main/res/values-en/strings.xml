@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vinal Voice AI</string>
+    <string name="welcome_tts">Welcome to Vinal Voice AI. Choose a menu below.</string>
+
+    <string name="menu_chat">AI Interactive Chat</string>
+    <string name="menu_chat_desc">Chat with AI by voice or typing</string>
+    <string name="menu_api">API & AI Brain Settings</string>
+    <string name="menu_api_desc">Set API key and AI model</string>
+    <string name="menu_gaya">Set AI Language Style</string>
+    <string name="menu_gaya_desc">Pick style: casual, slang, formal, etc</string>
+    <string name="menu_audio">Audio & Display Settings</string>
+    <string name="menu_audio_desc">Adjust voice speed & vibration</string>
+    <string name="menu_bahasa">Change Interface Language</string>
+    <string name="menu_bahasa_desc">Pick language: Indonesian, English, etc</string>
+    <string name="menu_about">About App</string>
+
+    <string name="chat_title">AI Chat</string>
+    <string name="chat_hint">Type your message here…</string>
+    <string name="role_user">YOU:</string>
+    <string name="role_ai">ANSWER:</string>
+    <string name="ai_thinking">AI is thinking, please wait…</string>
+    <string name="history_cleared">History cleared</string>
+    <string name="mic">Microphone</string>
+    <string name="send">Send</string>
+    <string name="clear">Clear</string>
+
+    <string name="label_api_key">API Key</string>
+    <string name="hint_api_key">Enter your API key</string>
+    <string name="label_base_url">Base URL</string>
+    <string name="label_model">Model</string>
+    <string name="label_cot">Enable Chain-of-Thought (<think> tag)</string>
+    <string name="label_streaming">Enable streaming response</string>
+    <string name="save">SAVE</string>
+    <string name="saved">Saved</string>
+    <string name="close">CLOSE</string>
+
+    <string name="gaya_cat_1">1. Casual Chat (Human Typing)</string>
+    <string name="gaya_cat_2">2. Slang Chat (Trendy, Modern)</string>
+    <string name="gaya_cat_3">3. Feelings & Relationships</string>
+    <string name="gaya_cat_4">4. Motivation</string>
+    <string name="gaya_selected">Style selected</string>
+
+    <string name="label_tts_rate">Speech Rate (TTS)</string>
+    <string name="label_tts_pitch">Voice Pitch</string>
+    <string name="label_vibration">Enable vibration</string>
+    <string name="label_audio_enabled">Enable audio</string>
+    <string name="test_audio">TEST VOICE</string>
+    <string name="audio_test">Voice test of Vinal Voice AI. Just a sample.</string>
+
+    <string name="lang_saved">Language saved!</string>
+
+    <string name="err_no_api_key">Enter API key in API Settings first</string>
+    <string name="err_no_stt">Speech recognition not available</string>
+    <string name="err_stt">Failed to recognize speech</string>
+    <string name="err_generic">Sorry, an error occurred</string>
+
+    <string name="enable_accessibility">Enable Accessibility Service</string>
+    <string name="accessibility_desc">Enable Vinal Voice AI as accessibility service for fully-blind mode</string>
+
+    <string name="about_text">Vinal Voice AI v1.0\n\n100% accessible AI voice assistant for visually impaired. Uses voice, vibration, and screen for navigation.\n\nFeatures:\n- Multi-language AI chat\n- Speech-to-text\n- Text-to-speech\n- Haptic vibration feedback\n- 40+ chat styles\n- Multi-language (5 langs)\n\nPowered by xAI Grok API.</string>
+</resources>

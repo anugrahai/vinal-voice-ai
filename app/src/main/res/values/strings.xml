@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vinal Voice AI</string>
+    <string name="welcome_tts">Selamat datang di Vinal Voice AI. Pilih menu di bawah.</string>
+
+    <string name="menu_chat">Chat Interaktif AI</string>
+    <string name="menu_chat_desc">Ngobrol sama AI pake suara atau ketik</string>
+    <string name="menu_api">Setelan API & Otak AI</string>
+    <string name="menu_api_desc">Atur kunci API dan model AI</string>
+    <string name="menu_gaya">Atur Gaya Bahasa AI</string>
+    <string name="menu_gaya_desc">Pilih gaya chat: santai, gaul, formal, dll</string>
+    <string name="menu_audio">Setelan Audio & Tampilan</string>
+    <string name="menu_audio_desc">Atur kecepatan suara & getaran</string>
+    <string name="menu_bahasa">Ganti Bahasa Antarmuka</string>
+    <string name="menu_bahasa_desc">Pilih bahasa: Indonesia, Inggris, dll</string>
+    <string name="menu_about">Tentang Aplikasi</string>
+
+    <string name="chat_title">Chat AI</string>
+    <string name="chat_hint">Ketik pesan lu di sini, Bro…</string>
+    <string name="role_user">PESAN LU:</string>
+    <string name="role_ai">JAWABAN:</string>
+    <string name="ai_thinking">AI lagi mikir, sabar ya Bro…</string>
+    <string name="history_cleared">Riwayat dihapus</string>
+    <string name="mic">Mikrofon</string>
+    <string name="send">Kirim</string>
+    <string name="clear">Hapus</string>
+
+    <string name="label_api_key">Kunci API</string>
+    <string name="hint_api_key">Masukin kunci API lu di sini</string>
+    <string name="label_base_url">Base URL</string>
+    <string name="label_model">Model</string>
+    <string name="label_cot">Aktifkan Chain-of-Thought (tag <think>)</string>
+    <string name="label_streaming">Aktifkan streaming response</string>
+    <string name="save">SIMPAN</string>
+    <string name="saved">Tersimpan</string>
+    <string name="close">TUTUP</string>
+
+    <string name="gaya_cat_1">1. Chat Biasa (Ketikan Manusia)</string>
+    <string name="gaya_cat_2">2. Chat Gaul (Gua/Lu, Kekinian)</string>
+    <string name="gaya_cat_3">3. Ungkapan Perasaan & Relasi</string>
+    <string name="gaya_cat_4">4. Motivasi</string>
+    <string name="gaya_selected">Gaya dipilih</string>
+
+    <string name="label_tts_rate">Kecepatan Bicara (TTS)</string>
+    <string name="label_tts_pitch">Nada Suara</string>
+    <string name="label_vibration">Aktifkan getaran</string>
+    <string name="label_audio_enabled">Aktifkan audio</string>
+    <string name="test_audio">TES SUARA</string>
+    <string name="audio_test">Tes suara Vinal Voice AI. Ini cuma contoh, Bro.</string>
+
+    <string name="lang_saved">Bahasa tersimpan!</string>
+
+    <string name="err_no_api_key">Masukin kunci API dulu di Setelan API</string>
+    <string name="err_no_stt">Speech recognition gak tersedia di HP ini</string>
+    <string name="err_stt">Gagal mengenali suara</string>
+    <string name="err_generic">Maaf error, Bro</string>
+
+    <string name="enable_accessibility">Aktifkan Accessibility Service</string>
+    <string name="accessibility_desc">Aktifkan Vinal Voice AI sebagai layanan aksesibilitas untuk mode fully-blind</string>
+
+    <string name="about_text">Vinal Voice AI v1.0\n\nAplikasi AI voice assistant yang 100% accessible buat tunanetra. Pake suara, getaran, dan layar buat navigasi.\n\nFitur:\n- Chat AI multi-bahasa\n- Speech-to-text (input suara)\n- Text-to-speech (output suara)\n- Vibrasi haptic feedback\n- 40+ gaya bahasa chat\n- Multi-bahasa (5 bahasa)\n\nPowered by xAI Grok API.</string>
+</resources>
